@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    
+    font-family: 'Press Start 2P', cursiva;
+}
+    
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: linear-gradient(244.22deg, #90bde7 23.02%, #000000 100%);
+}
+
+
+.topo {width: 100%; height: 120px;
+background: linear-gradient(#434242, black); position: relative;
+padding-top: 20px;
+color:white;
+font-size: 40px;
+text-align: center;
+}
+
+
+.op01 {width: 90%; 
+border: 10px;
+padding-top: 50px;
+padding-left: 30px;
+
+}
+
+
+.container {
+    background-image: url(/gifs/finandjake.gif);
+    position:relative;
+    padding: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;  
+    border-radius: 60px; 
+    background: cover;
+    transition: all 300ms;
+}
+
+.container:hover{width: 80%; height: 200px;
+box-shadow: 0 0 10px 10px #f1f1f1;}
+
+
+.botao1 {
+    background-color: whitesmoke; text-decoration: none; color:black
+    
+}
+
+.botao1:hover {
+background-color: black; color: whitesmoke; 
+    
+}
+
+
+.container2 {
+    background-image: url(/gifs/warriorgax.gif);
+    position:relative;
+    padding: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;  
+    border-radius: 60px; 
+    background: cover;
+    transition: all 300ms;
+}
+
+.container2:hover{width: 80%; height: 150px;
+box-shadow: 0 0 10px 10px #f1f1f1;}
+
+.botao2 {
+    background-color: whitesmoke; text-decoration: none; color:black
+    
+}
+
+.botao2:hover {
+background-color: black; color: whitesmoke; 
+    
+}
+
+
+.container3 {
+    background-image: url(/gifs/dog.gif);
+    position:relative;
+    padding: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;  
+    border-radius: 60px; 
+    background: cover;
+    transition: all 300ms;
+}
+
+.container3:hover{width: 80%; height: 90px;
+box-shadow: 0 0 10px 10px #f1f1f1;}
+
+.botao3 {
+    background-color: whitesmoke; text-decoration: none; color:black
+    
+}
+
+.botao3:hover {
+background-color: black; color: whitesmoke; 
+    
+}
+
+
+
+
+

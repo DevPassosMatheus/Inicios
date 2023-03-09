@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+font-family: 'Press Start 2P', cursiva;
+text-decoration: none;
+}
+
+html, body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+display: flex;
+box-sizing: border-box;
+}
+
+body {
+background: linear-gradient(209.24deg, #D97904 17.5%, rgba(255, 255, 255, 0) 94.77%);
+position: cover;
+}
+
+header {
+display: flex;
+background: linear-gradient(186.82deg, #6DA4DB 3.57%, rgba(109, 164, 219, 0) 68.27%);
+width: 85%; height: 20%;
+position: absolute;
+margin-left: 15%;
+color: rgb(0, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    height: 79%; width: 85%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+    gap: 20px;
+}
+
+main div img {
+height: 200px; width: 200px
+}
+
+.capas, .capas02 {
+display: flex;
+flex-direction: row;
+gap: 20px;
+margin-top: 30px;
+}
+
+.comida01, .comida02, .comida03 {
+background-color: #f1f3f4;
+display: flex;
+flex-direction: column;
+text-align: center;
+border: 1px solid black;
+padding: 10px;
+color: rgb(0, 0, 0);
+width: 500px;
+height: 500px;
+align-items: center;
+overflow-y: scroll;
+}
+
+
+ul {
+font-size: 10px;
+}
+
+ul li {
+color: black
+}
+.comida01 img, .comida02 img, .comida03 img {
+margin: auto
+}
+
+.comida01:hover, .comida02:hover, .comida03:hover {
+box-shadow: 0 0 10px 10px #000000;
+}
+
+.musicas {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: transparent;
+width: 95%; height: 50px;
+gap: 180px
+}
+
+section {
+display: flex;
+flex-direction: column;
+height: 100%; width: 15%; 
+position: absolute;
+background: linear-gradient(90deg, #D9D9D9 -1.09%, #000000 -1.08%, rgba(217, 217, 217, 0) 101.75%);
+gap: 40px;
+align-items: center;
+}
+
+
+.icones {
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+gap: 40px;
+text-align: center;
+}
+
+.inicio, .temas, .sobre-mim {
+border: 1px solid; border-radius: 10px; padding: 15px;
+background-color: white;
+color: black;
+transition: all 400ms;
+}
+
+
+.inicio:hover {
+background: linear-gradient(90deg, #D9D9D9 -1.09%, #64a7dd -1.08%, rgba(217, 217, 217, 0) 101.75%);
+color: white;
+border-color: transparent
+}
+
+.temas:hover {
+    background: linear-gradient(90deg, #D9D9D9 -1.09%, #64a7dd -1.08%, rgba(217, 217, 217, 0) 101.75%);
+    color: white;
+    border-color: transparent
+}
+
+.sobre-mim:hover {
+    background: linear-gradient(90deg, #D9D9D9 -1.09%, #64a7dd -1.08%, rgba(217, 217, 217, 0) 101.75%);
+    color: white;
+    border-color: transparent
+}
+        
+.divisoria {
+width: 80%; height: 1px;
+background: white;
+}
+
+ul, a {
+display: flex;
+flex-direction: column;
+gap: 30px;
+list-style: none;
+color: white;
+text-decoration: none;
+font-size: 10px;
+}
+
+
+img {
+border: 1px solid transparent; border-radius: 30px;
+margin-top: 5px;
+margin-left: 35px;
+width: 300px; height: 100%;
+}
+
+h1 {
+margin-left: 200px;
+margin-top: 70px;
+}
+
